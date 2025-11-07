@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Space Grotesk", "Fira Code", "Courier New", Courier, monospace;
+}
+
+.font-brand {
+  font-family: "Space Grotesk", "Fira Code", "Courier New", Courier, monospace;
+  letter-spacing: 0.05em;
+}
