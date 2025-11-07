@@ -43,17 +43,6 @@ npm install
 ### Environment Variables
 Create `.env` files (never commit them!)
 
-`backend/.env`
-```
-PORT=5000
-GROQ_API_KEY=your-groq-api-key
-GROQ_PARAPHRASE_MODEL=llama-3.3-70b-versatile
-GROQ_HUMANIZE_MODEL=llama-3.3-70b-versatile
-GROQ_AI_DETECT_MODEL=qwen/qwen3-32b
-GROQ_PLAGIARISM_MODEL=groq/compound
-GROQ_INSIGHT_MODEL=llama-3.3-70b-versatile
-```
-
 `frontend/.env`
 ```
 VITE_API_BASE=http://localhost:5000
